@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+.App{
+    background-color:#cfedab;
+    max-height:100%;
+    padding:20px;
+}
+/* #806d57*/
+
+.login_title{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:10px;
+}
+.login_icon{
+    margin-right:10px;
+    color:rgb(4,170,170);
+}
+.login_form{
+    display:flex;
+    justify-content:center;
+}
+.login_form input{
+  
+    height:37;
+    width:25%;
+    border-radius:7px;
+    border-width:6px;
+    border-color:rgb(4,170,170);
+    font-size:15;
+    padding-inline:10px;
+    margin-right:20px;
+    padding:7px;
+
+
+}
+button{
+    width:10%;
+    border-radius:7px;
+    font-size:14px;
+    font-weight:bold;
+    color:#fff;
+    padding:10px;
+    
+    background-color:#075e54;
+    margin:10;
+    text-align:center;
+
+    
+}
+
+
+
+
+
+.chats_header{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:30px;
+}
+.chats_logout{
+    color:rgb(6,152,152)
+}
+
+
+
+
+.chat_sender{
+    display:flex;
+    justify-content:flex-end;
+    flex-direction:row;
+}
+.chat_sender img, 
+.chat_receiver img{
+    width:30px;
+    height:30px;
+    border-radius:100%;
+
+}
+.chatS{
+    padding:10px;
+    background-color:#fff;
+    border-radius:10px;
+    max-width:60%;
+
+}
+
+.chat_receiver{
+       display:flex;
+    justify-content:flex-start;
+    flex-direction:row;
+
+}
+
+.chatR{
+    padding:10px;
+    background-color:#aff6be;
+    border-radius:10px;
+    max-width:60%;
+
+
+}
+
+
+
+.inputtext_container{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+
+}
+.inputtext_container button{
+    width:10%;
+    height:50px;
+    font-weight:bold;
+    border-radius:10px;
+    font-size:18px;
+    background-color:#075e54;
+    border-width:0;
+    color:#fff;
+    cursor:pointer;
+}
+.inputtext_container textarea{
+    width:60%;
+    height:50px;
+    border-radius:10px;
+    border-width:0;
+    padding:10px;
+    font-size:10px;
+}
+
+.chats_list{
+    height:75vh;
+    overflow:scroll;
+    overflow-x:hidden;
+}
